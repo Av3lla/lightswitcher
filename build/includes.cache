@@ -1,0 +1,62 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\variants\\standard"
+  },
+  {
+    "Sourcefile": "c:\\Users\\iclee\\Programming\\Arduino\\lightSwitch\\build\\sketch\\lightswitcher.ino.cpp",
+    "Include": "Servo.h",
+    "Includepath": "C:\\Program Files (x86)\\Arduino\\libraries\\Servo\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\iclee\\Programming\\Arduino\\lightSwitch\\build\\sketch\\lightswitcher.ino.cpp",
+    "Include": "IRremote.h",
+    "Includepath": "C:\\Users\\iclee\\Documents\\Arduino\\libraries\\IRremote\\src"
+  },
+  {
+    "Sourcefile": "c:\\Users\\iclee\\Programming\\Arduino\\lightSwitch\\build\\sketch\\lightswitcher.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\libraries\\Servo\\src\\avr\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\libraries\\Servo\\src\\mbed\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\libraries\\Servo\\src\\megaavr\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\libraries\\Servo\\src\\nrf52\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\libraries\\Servo\\src\\sam\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\libraries\\Servo\\src\\samd\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Program Files (x86)\\Arduino\\libraries\\Servo\\src\\stm32f4\\Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
