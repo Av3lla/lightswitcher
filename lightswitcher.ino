@@ -31,10 +31,10 @@ void loop() {
 
         if (results.value == 0xFF6897) {
             isLightOn = !isLightOn;
-            servo.write(lightOffAngle);
+            servoControl(false);
         } else if (results.value == 0xFF30CF) {
             isLightOn = !isLightOn;
-            servo.write(lightOnAngle);
+            servoControl(true);
         }
 
         delay(250);
@@ -44,10 +44,22 @@ void loop() {
     if (digitalRead(buttonPin) == 1) {
         isLightOn = !isLightOn;
         if (isLightOn) {
-            servo.write(lightOnAngle);
+            servoControl(true);
         } else {
-            servo.write(lightOffAngle);
+            servoControl(false);
         }
         delay(250);
+    }
+}
+
+void servoControl(bool onOff) {
+    if (onOff == false) {
+        servo.write(lightOffAngle);
+        delay(1000);
+        servo.write(initialAngle);
+    } else if (onOff == true) {
+        servo.write(lightOnAngle);
+        delay(1000);
+        servo.write(initialAngle);
     }
 }
