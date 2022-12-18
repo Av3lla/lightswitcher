@@ -37,4 +37,8 @@ c:\Users\iclee\Programming\Arduino\lightSwitch\build\sketch\lightswitcher.ino.cp
  C:\Users\iclee\Documents\Arduino\libraries\IRremote\src/ir_Sony.hpp \
  C:\Users\iclee\Documents\Arduino\libraries\IRremote\src/ir_Whynter.hpp \
  C:\Users\iclee\Documents\Arduino\libraries\IRremote\src/ir_Pronto.hpp \
- C:\Users\iclee\Documents\Arduino\libraries\IRremote\src/ir_Dish.hpp
+ C:\Users\iclee\Documents\Arduino\libraries\IRremote\src/ir_Dish.hpp \
+ C:\Users\iclee\Documents\Arduino\libraries\LiquidCrystal_I2C/LiquidCrystal_I2C.h \
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Print.h \
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src/Wire.h \
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Stream.h
